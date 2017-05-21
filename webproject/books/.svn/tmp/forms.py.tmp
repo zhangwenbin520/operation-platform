@@ -1,0 +1,12 @@
+from django import forms
+
+<<<<<<< .mine
+class ContactForm(forms.Form):
+	subject = forms.CharField()
+	email = forms.EmailField(required=False)
+	message = forms.CharField()
+=======
+class ContactForm(forms.form):
+	subject = forms.CharField()
+	email = forms.EmailField(required=False)
+	message = forms.CharField()>>>>>>> .r31

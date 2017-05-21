@@ -1,0 +1,6 @@
+from django import forms
+
+class ContactForm(forms.form):
+	subject = forms.CharFile()
+	email = forms.EmailFile(required=False)
+	message = forms.CharFile()
