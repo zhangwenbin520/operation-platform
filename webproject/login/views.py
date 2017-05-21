@@ -4,7 +4,7 @@ from django.shortcuts import render_to_response
 from django.contrib import auth
 from django.http import HttpResponse,HttpResponseRedirect
 
-# Create your views here.
+## Create your views here.
 
 def index(request):
     '''判断用户是否登陆'''

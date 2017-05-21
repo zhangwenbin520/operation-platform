@@ -1,7 +1,7 @@
 10
 
 dir
-31
+32
 svn://192.168.15.130/django_test/webproject
 svn://192.168.15.130/django_test
 
@@ -74,40 +74,6 @@ dir
 
 login
 dir
-
-README.md
-file
-30
-
-
-
-2017-05-16T06:18:28.323726Z
-43f51e9015b76933a7c200a7f6515001
-2017-05-16T06:12:28.754443Z
-1
-zhangwenbin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-161
 
 books
 dir
