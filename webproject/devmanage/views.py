@@ -27,6 +27,7 @@ def ip_view(request):
 
     try:
         show_list = paginator.page(page)
+        print show_list
     except PageNotAnInteger:
         # If page is not an integer, deliver first page.
         show_list = paginator.page(1)

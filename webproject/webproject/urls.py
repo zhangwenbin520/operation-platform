@@ -23,8 +23,4 @@ urlpatterns = patterns('',
     url(r'^search_dev/$','devmanage.views.search_dev'),
     url(r'^mod_ip/$','devmanage.views.mod_ip'),
     url(r'^mod_dev/$','devmanage.views.mod_dev'),
-    url(r'^search_form/$','books.views.search_form'),
-    url(r'^search/$','books.views.search'),
-    url(r'^contact/$','books.views.contact'),
-    url(r'^contact/thanks/$','books.views.thanks'),
 )
