@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'login',
     'devmanage',
     'service',
+    'fileUpload',
 )
 
 MIDDLEWARE_CLASSES = (

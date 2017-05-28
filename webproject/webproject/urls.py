@@ -23,4 +23,6 @@ urlpatterns = patterns('',
     url(r'^search_dev/$','devmanage.views.search_dev'),
     url(r'^mod_ip/$','devmanage.views.mod_ip'),
     url(r'^mod_dev/$','devmanage.views.mod_dev'),
+    url(r'^file_upload/$','fileUpload.views.upload'),
+    #url(r'^file_upload/file_save/$','fileUpload.views.file_save'),
 )
